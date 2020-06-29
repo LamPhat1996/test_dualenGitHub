@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+<stroke
+    android:color="@color/storck_ActionBar"
+    android:width="@dimen/strock_width">
+</stroke>
+    <gradient
+        android:angle="@integer/gradient_angle"
+        android:startColor="@color/startColor_ActionBar"
+        android:centerColor="@color/center_ActionBar"
+        android:endColor="@color/endColor_ActionBar">
+    </gradient>
+</shape>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <LinearLayout
+        style="@style/linearLayoutStyles"
+        android:layout_weight="1"
+        >
+
+        <TextView
+            android:id="@+id/txtMangHinh"
+            style="@style/textview"
+            android:focusable="false"
+            android:gravity="center_vertical|right"
+            android:text="@string/khong" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/linearLayoutStyles"
+        android:orientation="vertical"
+
+        android:layout_weight="4">
+        <LinearLayout
+            style="@style/linearLayoutButton">
+            <Button
+                style="@style/ButtonStyles"
+                android:id="@+id/btnBay"
+                android:text="@string/bay"
+                />
+
+            <Button
+                android:id="@+id/btnTam"
+                android:text="@string/tam"
+                style="@style/ButtonStyles"/>
+
+            <Button
+                android:id="@+id/btnChinh"
+                android:text="@string/chinh"
+                style="@style/ButtonStyles"/>
+
+            <Button
+                android:id="@+id/btnCong"
+                android:text="@string/Cong"
+                style="@style/ButtonStyles"/>
+        </LinearLayout>
+        <LinearLayout
+            style="@style/linearLayoutButton">
+            <Button
+                android:id="@+id/btnBon"
+                android:text="@string/bon"
+                style="@style/ButtonStyles"/>
+
+            <Button
+                android:id="@+id/btnNam"
+                android:text="@string/nam"
+                style="@style/ButtonStyles"/>
+
+            <Button
+                android:id="@+id/btnSau"
+                android:text="@string/sau"
+                style="@style/ButtonStyles"/>
+
+            <Button
+                android:id="@+id/btTru"
+                android:text="@string/Tru"
+                style="@style/ButtonStyles"/>
+        </LinearLayout>
+        <LinearLayout
+            style="@style/linearLayoutButton">
+            <Button
+                android:id="@+id/btnMot"
+                android:text="@string/mot"
+                style="@style/ButtonStyles"
+                />
+
+            <Button
+                android:id="@+id/btnHai"
+                android:text="@string/hai"
+                style="@style/ButtonStyles"
+                />
+
+            <Button
+                android:id="@+id/btnBa"
+                android:text="@string/ba"
+                style="@style/ButtonStyles"
+                />
+
+            <Button
+                android:id="@+id/btnNhan"
+                android:text="@string/Nhan"
+                style="@style/ButtonStyles"/>
+        </LinearLayout>
+        <LinearLayout
+            style="@style/linearLayoutButton">
+
+            <Button
+                android:id="@+id/btnKhong"
+                android:text="@string/khong"
+                style="@style/ButtonStyles"/>
+
+            <Button
+                android:id="@+id/btnXoa"
+                android:text="@string/xoa"
+                style="@style/ButtonStyles"/>
+
+            <Button
+                android:id="@+id/btnBang"
+                android:text="@string/bang"
+                style="@style/ButtonStyles"/>
+
+            <Button
+                android:id="@+id/btnChia"
+                android:text="@string/Chia"
+                style="@style/ButtonStyles"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

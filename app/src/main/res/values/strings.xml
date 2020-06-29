@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Test</string>
+
+    <string name="mot">1</string>
+    <string name="hai">2</string>
+    <string name="ba">3</string>
+    <string name="bon">4</string>
+    <string name="nam">5</string>
+    <string name="sau">6</string>
+    <string name="bay">7</string>
+    <string name="tam">8</string>
+    <string name="chinh">9</string>
+    <string name="khong">0</string>
+    <string name="Cong">+</string>
+    <string name="Tru">-</string>
+    <string name="Nhan">*</string>
+    <string name="Chia">/</string>
+    <string name="bang">=</string>
+    <string name="xoa">C</string>
+</resources>
